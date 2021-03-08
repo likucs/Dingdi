@@ -18,14 +18,13 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hey there! My name is *{}*, I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+Hey there! My name is *{}!*I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my [news channel](https://t.me/ProIndians) to get information on all the latest updates.
+Join my [news channel](https://t.me/DingdiSupport) to get information on all the latest updates.
 """
 
 HELP_STRINGS = """
-Hey! My name is *{}*. I am a group management bot, here to help you get around and keep the order in your groups!
-I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
+Hey! My name is *{}*.
 
 *Helpful commands*:
 - /start: Starts me! You've probably already used this.
@@ -33,14 +32,14 @@ I have lots of handy features, such as flood control, a warning system, a note k
 - /donate: Gives you info on how to support me and my creator.
 
 {}
-All commands can be used with the following: / !
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "If you have any bugs or questions on how to use me, have a look at my [Group](https://t.me/ProHelpDesk), or head to @ProIndians.")
+All commands can be used with the following: / or !
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "If you have any bugs or questions on how to use me, have a look at my [Group](https://t.me/DingdiSupport), or @MizoInFoTel14.")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](t.me/ZauteKm) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of paying him; [Contact hete](t.me/ZauteKm)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -135,7 +134,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                     reply_markup=InlineKeyboardMarkup(
                                         [[InlineKeyboardButton(text="Add me to your chat!", url="t.me/{}?startgroup=true".format(bot.username))]]))
     else:
-        update.effective_message.reply_text("Hello all Join @ProIndians.")
+        update.effective_message.reply_text("Hello all Join @DingdiNews.")
 
 
 # for test purposes
