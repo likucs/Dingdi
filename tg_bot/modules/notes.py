@@ -116,7 +116,7 @@ def get(bot, update, notename, show_none=True, no_format=False):
                     sql.rm_note(chat_id, notename)
                 else:
                     message.reply_text("This note could not be sent, as it is incorrectly formatted. Ask in "
-                                       "@MarieSupport if you can't figure out why!")
+                                       "@DingdiSupport if you can't figure out why!")
                     LOGGER.exception("Could not parse message #%s in chat %s", notename, str(chat_id))
                     LOGGER.warning("Message was: %s", str(note.value))
         return
@@ -172,7 +172,7 @@ def save(bot: Bot, update: Update):
     sql.add_note_to_db(chat_id, note_name, text, data_type, buttons=buttons, file=content)
 
     msg.reply_text(
-        "OK, Added {note_name} in *{chat_name}*.\nGet it with /get {note_name}, or #{note_name}".format(note_name=note_name, chat_name=chat_name), parse_mode=ParseMode.MARKDOWN)
+        "OK, Added {note_name} in *{chat_name}*.\nGet it with `/get {note_name}`, or `#{note_name}`".format(note_name=note_name, chat_name=chat_name), parse_mode=ParseMode.MARKDOWN)
 
     if msg.reply_to_message and msg.reply_to_message.from_user.is_bot:
         if text:
@@ -222,7 +222,7 @@ def list_notes(bot: Bot, update: Update):
     if not conn == False:
         chat_id = conn
         chat_name = dispatcher.bot.getChat(conn).title
-        msg = "*Notes in {}:*\n"
+        msg = "*Notes in {}:*\n".format(chat_name)
     else:
         chat_id = update.effective_chat.id
         if chat.type == "private":
@@ -230,12 +230,12 @@ def list_notes(bot: Bot, update: Update):
             msg = "*Local Notes:*\n"
         else:
             chat_name = chat.title
-            msg = "*Notes in {}:*\n"
+            msg = "List of Notes in *{}:*\n".format(chat_name)
 
     note_list = sql.get_all_chat_notes(chat_id)
 
     for note in note_list:
-        note_name = escape_markdown(" - {}\n".format(note.name))
+        note_name = " • `#{}`\n".format(note.name)
         if len(msg) + len(note_name) > MAX_MESSAGE_LENGTH:
             update.effective_message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
             msg = ""
@@ -245,6 +245,7 @@ def list_notes(bot: Bot, update: Update):
         update.effective_message.reply_text("No notes in this chat!")
 
     elif len(msg) != 0:
+        msg += "\n*I Koh chhuah dan tur chu* `/get notename`, *emaw* `#notename`"
         update.effective_message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
 
 
@@ -294,7 +295,8 @@ be useful when updating a current note.
 *Admin only:*
  - /save <notename> <notedata>: saves notedata as a note with name notename
 A button can be added to a note by using standard markdown link syntax - the link should just be prepended with a \
-`buttonurl:` section, as such: `[somelink](buttonurl:example.com)`. Check /markdownhelp for more info.
+`buttonurl:` section, as such: `[somelink](buttonurl:example.com)`.
+Check /markdownhelp for more info.
  - /save <notename>: save the replied message as a note with name notename
  - /clear <notename>: clear note with this name
 """
