@@ -6,7 +6,7 @@ You can use markdown to make your messages more expressive. This is the markdown
 `_italic words_` underscores are used for italics. Shows as: italic words.
 `~strikethrough words~` tildes are used for strikethrough. Shows as: strikethrough words.
 `__underlined words__` two underscores are used for underlines. Shows as: underlined words. NOTE: Some clients try to be smart and interpret it as italic. In that case, try to use your app's built-in formatting.
-`[hyperlink](example.com)` this is used for hyperlinks, and will show as such: [hyperlink](http://example.com/). Make sure not to add any extra spaces between the ] and the ( or it won't be valid markdown.
+`[hyperlink](example.com)` this is used for hyperlinks, and will show as such: [hyperlink](https://t.me/MizoInFoTel14/24). Make sure not to add any extra spaces between the ] and the ( or it won't be valid markdown.
 
 Now, if you wanted to have buttons on your message, you could use this special syntax:
 `[button](buttonurl://example.com)`
