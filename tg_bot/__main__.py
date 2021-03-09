@@ -21,7 +21,7 @@ PM_START_TEXT = """
 Hey there! My name is *{}!*
 I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my [news channel](https://t.me/DingdiSupport) to get information on all the latest updates.
+Join my [news channel](https://t.me/DingdiNews) to get information on all the latest updates.
 """
 
 HELP_STRINGS = """
