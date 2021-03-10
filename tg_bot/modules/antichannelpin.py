@@ -1,10 +1,10 @@
 from tg_bot import filters
 from tg_bot.types import Message
-from pyrobot import (
+from tg_bot import (
     COMMAND_HAND_LER,
     A_PIN_MESSAGE_ID
 )
-from pyrobot.pyrobot import PyroBot
+from tg_bot.pyrobot import PyroBot
 
 
 @PyroBot.on_message(
