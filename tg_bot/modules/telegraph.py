@@ -29,7 +29,7 @@ def post_telegraph(bot: Bot, update: Update, args: List[str]):
         title_of_page,
         html_content=page_content
     )
-    msg.reply_text("https://telegra.ph/{}".format(response["path"]))
+    msg.reply_text("https://telegra.ph{response[0]}
 
 
 __help__ = """- /tele.gra.ph - as reply to a long message
