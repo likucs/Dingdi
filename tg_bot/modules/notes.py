@@ -241,11 +241,11 @@ def list_notes(bot: Bot, update: Update):
             msg = ""
         msg += note_name
 
-    if msg == "*Notes in chat:*\n":
-        update.effective_message.reply_text("No notes in this chat!")
+    if not note_list:
+        update.effective_message.reply_text("No notes in *{}*!".format(chat_name), parse_mode=ParseMode.MARKDOWN)
 
     elif len(msg) != 0:
-        msg += "\n*I Koh chhuah dan tur chu* `/get notename`, *emaw* `#notename`"
+        msg += "\n*You can retrieve these notes by using* `/get notename`, *or* `#notename`"
         update.effective_message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
 
 
