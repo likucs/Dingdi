@@ -15,7 +15,7 @@ class Config(object):
     OWNER_USERNAME = "ZauteKm"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqlite:////mnt/c/Users/antho/Documents/sqlite_example/example.db'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'sqlite:////mnt/Users/antho/Documents/sqlite_example/example.db'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
