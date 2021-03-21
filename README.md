@@ -2,7 +2,7 @@
 
 ### Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zauteakm/Dingdi)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZauteKm/Dingdi)
 ### Credits
 
 • [FayasKKD](https://github.com/FayasKKD/Bio) for this Repository 
