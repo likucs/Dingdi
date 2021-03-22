@@ -1,16 +1,17 @@
-# [Miss Rose Bot](https://t.me/MissRose_bot)
+# [Dingdi 2.0](https://t.me/Dingdi_tgbot)
+# [Dingdi Official](https://t.me/DingdiBot)
 
 ### Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZauteKm/Dingdi)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZauteKm/Dingdi-Senhri)
 ### Credits
 
-• [FayasKKD](https://github.com/FayasKKD/Bio) for this Repository 
+• [News Channel](https://t.me/DingdiNews) Join Now
 
-• [Paul Larsen](https://github.com/PaulSonOfLars) for his [tgbot](https://github.com/PaulSonOfLars/tgbot) Repository and [Miss Rose Bot](https://t.me/MissRose_bot)
+• [Mizo InFoTel](https://t.me/MizoInFoTel14) for his [tgbot](https://github.com/ZauteKm/Dingdi-Senhri) Repository and [Senhri](https://t.me/ZoSenhriBot)
 
-• [Dan Tes](https://github.com/delivrance) For his [Pyrogram](https://docs.pyrogram.org/) Library
+• [TGBotSzK](https://t.me/TGBotSzL) For his [Pyrogram](https://docs.pyrogram.org/) Library
 
 ## Profile
 
-![Rose Profile](https://telegra.ph/file/718d48493d1fb11197d8b.jpg)
+![Dingdi & Senhri Profile](https://telegra.ph/file/bb27af037dccff01c913f.jpg)
