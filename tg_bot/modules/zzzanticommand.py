@@ -26,9 +26,9 @@ def rem_cmds(bot: Bot, update: Update, args: List[str]) -> str:
     if not args:
         del_pref = sql.get_cmd_pref(chat.id)
         if del_pref:
-            update.effective_message.reply_text("നിലവിൽ @bluetextbot കമാന്റുകൾ ഡിലീറ്റ് ചെയ്യുന്നുണ്ട്.")
+            update.effective_message.reply_text("Currently @bluetextbot commands are not deleted.")
         else:
-            update.effective_message.reply_text("നിലവിൽ @bluetextbot കമാന്റുകൾ ഡിലീറ്റ് ചെയ്യുന്നില്ല.")
+            update.effective_message.reply_text("Currently @bluetextbot commands are not deleted.")
         return ""
 
     if args[0].lower() in ("on", "yes"):
