@@ -1,5 +1,6 @@
 # [Dingdi 2.0](https://t.me/Dingdi_tgbot)
 # [Dingdi Official](https://t.me/DingdiBot)
+# [Senhri Official](https://t.me/ZoSenhriBot)
 
 ### Deploy
 
