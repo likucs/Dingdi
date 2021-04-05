@@ -21,7 +21,7 @@ PM_START_TEXT = """
 Hey there! My name is *{}!*
 I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my [news channel](https://t.me/DingdiNews) to get information on all the latest updates.
+Join my [news channel](https://t.me/ZauTeKm) to get information on all the latest updates.
 """
 
 HELP_STRINGS = """
@@ -34,7 +34,7 @@ Hey! My name is *{}*.
 
 {}
 All commands can be used with the following: / or !
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "If you have any bugs or questions on how to use me, have a look at @DingdiSupport or @MizoInFoTel14.")
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "If you have any bugs or questions on how to use me, have a look at @ZauTeSupport.")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](t.me/ZauteKm) to get me to where I am now, and every donation helps \
