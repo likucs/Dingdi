@@ -10,10 +10,10 @@ from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async, Filters, MessageHandler
 from telegram.utils.helpers import mention_markdown, mention_html, escape_markdown
 
-import tg_bot.modules.sql.welcome_sql as sql
-from tg_bot import dispatcher, LOGGER
-from tg_bot.modules.helper_funcs.chat_status import user_admin, can_delete
-from tg_bot.modules.log_channel import loggable
+import Dingdi.modules.sql.welcome_sql as sql
+from Dingdi import dispatcher, LOGGER
+from Dingdi.modules.helper_funcs.chat_status import user_admin, can_delete
+from Dingdi.modules.log_channel import loggable
 
 
 @run_async
@@ -41,7 +41,7 @@ def rem_cmds(bot: Bot, update: Update, args: List[str]) -> str:
                                                                          mention_html(user.id, user.first_name))
     elif args[0].lower() in ("off", "no"):
         sql.set_cmd_joined(str(chat.id), False)
-        update.effective_message.reply_text("A dik lo, @DingdiSupport ah lo zawt rawh!")
+        update.effective_message.reply_text("Group Command, @DingdiSupport hmingin a in off e.!")
         return "<b>{}:</b>" \
                "\n#ANTI_COMMAND" \
                "\n<b>Admin:</b> {}" \
