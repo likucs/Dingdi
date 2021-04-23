@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import func, distinct, Column, String, UnicodeText
 
-from tg_bot.modules.sql import SESSION, BASE
+from Dingdi.modules.sql import SESSION, BASE
 
 
 class BlackListFilters(BASE):
