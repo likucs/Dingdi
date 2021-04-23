@@ -16,7 +16,7 @@ if is_module_loaded(FILENAME):
     from Dingdi.modules.helper_funcs.chat_status import user_admin, is_user_admin
     from telegram.ext.dispatcher import run_async
 
-    from tg_bot.modules.sql import disable_sql as sql
+    from Dingdi.modules.sql import disable_sql as sql
 
     DISABLE_CMDS = []
     DISABLE_OTHER = []
