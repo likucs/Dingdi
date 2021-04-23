@@ -6,10 +6,10 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, RegexHandler, run_async, Filters
 from telegram.utils.helpers import mention_html
 
-from tg_bot import dispatcher, LOGGER
-from tg_bot.modules.helper_funcs.chat_status import user_not_admin, user_admin
-from tg_bot.modules.log_channel import loggable
-from tg_bot.modules.sql import reporting_sql as sql
+from Dingdi import dispatcher, LOGGER
+from Dingdi.modules.helper_funcs.chat_status import user_not_admin, user_admin
+from Dingdi.modules.log_channel import loggable
+from Dingdi.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 5
 
