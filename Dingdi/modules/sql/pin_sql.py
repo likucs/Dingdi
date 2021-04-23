@@ -3,7 +3,7 @@ import threading
 from sqlalchemy import Integer, Column, String, func, distinct, Boolean
 from sqlalchemy.dialects import postgresql
 
-from tg_bot.modules.sql import SESSION, BASE
+from Dingdi.modules.sql import SESSION, BASE
 
 
 class SPinSettings(BASE):
