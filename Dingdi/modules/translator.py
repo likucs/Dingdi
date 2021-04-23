@@ -4,8 +4,8 @@ from telegram.ext import Filters, MessageHandler, run_async
 
 from requests import get
 
-from tg_bot.modules.disable import DisableAbleCommandHandler
-from tg_bot import dispatcher
+from Dingdi.modules.disable import DisableAbleCommandHandler
+from Dingdi import dispatcher
 
 base_url = 'https://translate.yandex.net/api/v1.5/tr.json/translate'
 api_key = 'trnsl.1.1.20180603T023816Z.763b39e3388b46d6.aa9abf45baceb438c96bb1593ce58199cc66c4f1'
