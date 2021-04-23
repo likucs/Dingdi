@@ -7,11 +7,11 @@ from telegram.ext import CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-from tg_bot import dispatcher, LOGGER
-from tg_bot.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_admin, can_restrict
-from tg_bot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from tg_bot.modules.helper_funcs.string_handling import extract_time
-from tg_bot.modules.log_channel import loggable
+from Dingdi import dispatcher, LOGGER
+from Dingdi.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_admin, can_restrict
+from Dingdi.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from Dingdi.modules.helper_funcs.string_handling import extract_time
+from Dingdi.modules.log_channel import loggable
 
 
 @run_async
