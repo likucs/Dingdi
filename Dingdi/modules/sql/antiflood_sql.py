@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import String, Column, Integer
 
-from tg_bot.modules.sql import SESSION, BASE
+from Dingdi.modules.sql import SESSION, BASE
 
 DEF_COUNT = 0
 DEF_LIMIT = 0
