@@ -6,8 +6,8 @@ import telegram
 from telegram import Update, Bot
 from telegram.ext import run_async
 
-from tg_bot import dispatcher, LOGGER
-from tg_bot.modules.disable import DisableAbleRegexHandler
+from Dingdi import dispatcher, LOGGER
+from Dingdi.modules.disable import DisableAbleRegexHandler
 
 DELIMITERS = ("/", ":", "|", "_")
 
