@@ -1,7 +1,7 @@
 
 {
-  "name": "Dingdi 2.0",
-  "logo": "https://telegra.ph/file/bb27af037dccff01c913f.jpg",
+  "name": "Dingdi",
+  "logo": "https://telegra.ph/file/360268de5024928a7b496.jpg",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "keywords": [
     "telegram",
@@ -10,7 +10,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/ZauteKm/Dingdi-Senhri",
+  "repository": "hhttps://github.com/ZauteKm/Dingdi",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -38,19 +38,19 @@
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-1001410821124"
+      "value": "-1001276283101"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "1684438752"
+      "value": "1219026298, 1645872315, 1173373896"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "1684438752"
+      "value": "1219026298, 1645872315, 1173373896"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "1684438752"
+      "value": "1219026298, 1645872315, 1173373896"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
