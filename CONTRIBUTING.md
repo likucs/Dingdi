@@ -1,4 +1,4 @@
-# Contributin
+# Contributing
 
 Contributions are very welcome! Here are some guidelines on how the project is designed.
 
