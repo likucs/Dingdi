@@ -7,7 +7,6 @@ By: @TGraphZKbot"""
 import os
 from datetime import datetime
 
-from Dingdi import Image
 from telegraph import Telegraph, exceptions, upload_file
 from telethon import events
 
