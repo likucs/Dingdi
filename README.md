@@ -1,7 +1,7 @@
 ## Dingdi Telegram Bot
 
-### Demo Bot:
-<a href="https://t.me/DingdiBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-red.svg?logo=telegram"></a>
+### Dingdi:
+<a href="https://t.me/DingdiBot"><img src="https://img.shields.io/badge/Demo-Dingdi%20Bot-red.svg?logo=telegram"></a>
 
 ## Give your 💙
 
