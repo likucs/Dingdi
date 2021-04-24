@@ -17,11 +17,11 @@
       "value": "ANYTHING"
     },
     "TOKEN": {
-      "description": "Your bot token, as a string.",
+      "description": "Your bot token, as a string. Get from @BotFather",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
+      "description": "An integer of consisting of your owner ID. Get from @DingdiBot",
       "value": "1684438752"
     },
     "OWNER_USERNAME": {
