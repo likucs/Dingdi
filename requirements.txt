@@ -18,3 +18,10 @@ pynewtonmath
 bs4
 telegraph
 telethon
+youtube_search
+youtube_dl
+aiohttp
+asyncio
+wget
+aiofiles
+OpenCC
