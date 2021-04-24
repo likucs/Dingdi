@@ -25,3 +25,4 @@ asyncio
 wget
 aiofiles
 OpenCC
+pyrogram
