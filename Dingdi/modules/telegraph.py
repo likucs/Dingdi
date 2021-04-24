@@ -7,7 +7,7 @@ By: @TGraphZKbot"""
 import os
 from datetime import datetime
 
-from PIL import Image
+from Dingdi import Image
 from telegraph import Telegraph, exceptions, upload_file
 from telethon import events
 
