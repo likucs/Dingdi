@@ -18,29 +18,26 @@ from Dingdi.modules.helper_funcs.chat_status import is_user_admin
 from Dingdi.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hey there! My name is *{}!*
-I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+Chibai le! Ka hming chu *{}* a ni e.
+Kei hi i Group enkawlpuitu tura duan ka ni! Ka thil tih theihte i en nan /help lo thawn la.
 
-Join my [news channel](https://t.me/ZauTeKm) to get information on all the latest updates.
+Group enkawltu atana min hman chuan Information Update i hriat zung zung nan ka [News Channel](t.me/DingdiNews) hi join ngei ngei la.
 """
 
 HELP_STRINGS = """
 Hey! My name is *{}*.
 
-*Helpful commands*:
-- /start: Starts me! You've probably already used this.
-- /help: Sends this message; I'll tell you more about myself!
-- /donate: Gives you info on how to support me and my creator.
+*Min thunun nana ṭangkaite:*
+- /start: Start rawh le!.
+- /help: He Messages hi lo thawn la; Ka thil tih theihte ka lo hmuh zel ang!
+- /donate: Min siamtu hi i thlâwp chuan lo thawn la.
 
 {}
-All commands can be used with the following: / or !
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "If you have any bugs or questions on how to use me, have a look at @ZauTeSupport.")
+Min thunun dawn apiangin thu bulṭan naah: / emaw ! hi dah hmasa zel la.
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "Eng emaw buaina leh hriatthiam loh i neih chuan @DingdiSupport ah emaw @MizoHelpDesK ah lo zawt ang che.")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/ZauteKm) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [Contact here](t.me/ZauTeSupport)."""
+DONATE_STRING = """Hi! Min siamtu i thlâwp maw!
+A nih chuan [min siamtu](t.me/Zaute_Km) iva be thei ang. Mahse i pawngpaw biak tur a ni lo. *Warning ⚠️!*"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -133,9 +130,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                                     parse_mode=ParseMode.MARKDOWN,
                                     disable_web_page_preview=True,
                                     reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton(text="Add me to your chat!", url="t.me/{}?startgroup=true".format(bot.username))]]))
+                                        [[InlineKeyboardButton(text="Group ah min add rawh le!", url="t.me/{}?startgroup=true".format(bot.username))]]))
     else:
-        update.effective_message.reply_text("Hello all Join @DingdiNews.")
+        update.effective_message.reply_text("Chibai le! Group vil turin ka inpeih. Join @DingdiNews.")
 
 
 # for test purposes
