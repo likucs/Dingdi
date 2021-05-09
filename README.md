@@ -8,12 +8,12 @@
 Before clicking on deploy to heroku just click on fork and star just below
 
 <p align="center">
-  <a href="https://github.com/ZauTeKm/Dingdi-English-2.0/fork">
-    <img src="https://img.shields.io/github/forks/ZauTeKm/Dingdi-English-2.0?label=Fork&style=social">
+  <a href="https://github.com/ZauTeKm/Dingdi/fork">
+    <img src="https://img.shields.io/github/forks/ZauTeKm/Dingdi?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ZauTeKm/Dingdi-English-2.0">
-    <img src="https://img.shields.io/github/stars/ZauTeKm/Dingdi-English-2.0?style=social">
+  <a href="https://github.com/ZauTeKm/Dingdi">
+    <img src="https://img.shields.io/github/stars/ZauTeKm/Dingdi?style=social">
   </a>
 </p>
 
@@ -31,7 +31,7 @@ Before clicking on deploy to heroku just click on fork and star just below
 
 ## Deploy to Heroku
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ZauTeKm/Dingdi-English-2.0"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ZauTeKm/Dingdi/tree/English"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 ## Starting the bot.
 
