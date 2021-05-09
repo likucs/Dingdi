@@ -1,6 +1,6 @@
 
 {
-  "name": "Dingdi",
+  "name": "Dingdi-English-2.0",
   "logo": "https://telegra.ph/file/360268de5024928a7b496.jpg",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "keywords": [
@@ -10,7 +10,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/ZauteKm/Dingdi",
+  "repository": "hhttps://github.com/ZauteKm/Dingdi-English-2.0",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
