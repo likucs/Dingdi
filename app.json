@@ -54,7 +54,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "http://t.me/ZauteKm"
+      "value": "http://t.me/Zaute_Km"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
