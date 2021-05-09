@@ -37,7 +37,7 @@ Min thunun dawn apiangin thu bulṭan naah: / emaw ! hi dah hmasa zel la.
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "Eng emaw buaina leh hriatthiam loh i neih chuan @DingdiSupport ah emaw @MizoHelpDesK ah lo zawt ang che.")
 
 DONATE_STRING = """Hi! Min siamtu i thlâwp maw!
-A nih chuan [min siamtu](t.me/Zaute_Km) iva be thei ang. Mahse i pawngpaw biak tur a ni lo. *Warning ⚠️!*"""
+A nih chuan [min siamtu](t.me/ZauteBot) iva be thei ang. Mahse i pawngpaw biak tur a ni lo. *Warning ⚠️!*"""
 
 IMPORTED = {}
 MIGRATEABLE = []
