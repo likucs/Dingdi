@@ -133,7 +133,40 @@ def start(bot: Bot, update: Update, args: List[str]):
                                     parse_mode=ParseMode.MARKDOWN,
                                     disable_web_page_preview=True,
                                     reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton(text="Add me to your chat!", url="t.me/{}?startgroup=true".format(bot.username))]]))
+                                         [[InlineKeyboardButton(text="➕ Add me to your Chat! ➕",
+                                url="t.me/{}?startgroup=true".format(
+                                    bot.username
+                                ),
+                            )
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="👥 Group",
+                                url=f"https://t.me/DingdiSupport",
+                            ),
+                            InlineKeyboardButton(
+                                text="Channel 📢",
+                                url="https://t.me/ZauteKm",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="🔧 Support",
+                                url=f"https://t.me/joinchat/TBKI3d9nCF8xMBsL",
+                            ),
+                            InlineKeyboardButton(
+                                text="Information 💬",
+                                url="https://t.me/ZauteBot",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(text="🔰 Dingdi Source Code 🔰",
+                                url="http://githup.com/ZauteKm/Dingdi",
+                            ),
+                        ],
+                    ]
+                ),
+            )
     else:
         update.effective_message.reply_text("Hello all Join @DingdiNews.")
 
