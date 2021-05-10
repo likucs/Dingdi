@@ -153,7 +153,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                             ),
                             InlineKeyboardButton(
                                 text="Developer",
-                                url="https://t.me/ZauteBot",
+                                url="https://t.me/ZauteBot"),
 
                             [[InlineKeyboardButton(text="Source Code",
                                 url="http://githup.com/ZauteKm/Dingdi",
