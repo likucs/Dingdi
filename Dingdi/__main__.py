@@ -130,7 +130,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                     parse_mode=ParseMode.MARKDOWN,
                                     disable_web_page_preview=True,
                                     reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton(text="Add me to your Chat!",
+                                        [[InlineKeyboardButton(text="➕ Add me to your Chat! ➕",
                                 url="t.me/{}?startgroup=true".format(
                                     bot.username
                                 ),
@@ -138,26 +138,26 @@ def start(bot: Bot, update: Update, args: List[str]):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
+                                text="👥 Group",
                                 url=f"https://t.me/DingdiSupport",
                             ),
                             InlineKeyboardButton(
-                                text="Support Channel",
+                                text="Channel 📢",
                                 url="https://t.me/ZauteKm",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Mizo Help DesK",
+                                text="🔧 Support",
                                 url=f"https://t.me/joinchat/TBKI3d9nCF8xMBsL",
                             ),
                             InlineKeyboardButton(
-                                text="Developer",
+                                text="Information 💬",
                                 url="https://t.me/ZauteBot",
                             ),
                         ],
                         [
-                            InlineKeyboardButton(text="Source Code",
+                            InlineKeyboardButton(text="🔰 Dingdi Source Code 🔰",
                                 url="http://githup.com/ZauteKm/Dingdi",
                             ),
                         ],
