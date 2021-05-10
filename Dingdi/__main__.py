@@ -133,7 +133,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                     parse_mode=ParseMode.MARKDOWN,
                                     disable_web_page_preview=True,
                                     reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton(text="➕ Add me to your Chat! ➕",
+                                        [[InlineKeyboardButton(text="➕ Add me to your Chat! ➕",
                                 url="t.me/{}?startgroup=true".format(
                                     bot.username
                                 ),
