@@ -130,7 +130,38 @@ def start(bot: Bot, update: Update, args: List[str]):
                                     parse_mode=ParseMode.MARKDOWN,
                                     disable_web_page_preview=True,
                                     reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton(text="Group ah min add rawh le!", url="t.me/{}?startgroup=true".format(bot.username))]]))
+                                        [[InlineKeyboardButton(text="Add me to your Chat!",
+                                url="t.me/{}?startgroup=true".format(
+                                    bot.username
+                                ),
+                            )
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Support Group",
+                                url=f"https://t.me/DingdiSupport",
+                            ),
+                            InlineKeyboardButton(
+                                text="Support Channel",
+                                url="https://t.me/ZauteKm",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Mizo Help DesK",
+                                url=f"https://t.me/joinchat/TBKI3d9nCF8xMBsL",
+                            ),
+                            InlineKeyboardButton(
+                                text="Developer",
+                                url="https://t.me/ZauteBot",
+
+                            [[InlineKeyboardButton(text="Source Code",
+                                url="http://githup.com/ZauteKm/Dingdi",
+                            ),
+                        ],
+                    ]
+                ),
+            )
     else:
         update.effective_message.reply_text("Chibai le! Group vil turin ka inpeih. Join @DingdiNews.")
 
