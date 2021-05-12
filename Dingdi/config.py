@@ -21,7 +21,6 @@ class Config(object):
     NO_LOAD = ['translation', 'rss']
     WEBHOOK = False
     URL = None
-    REM_BG_API_KEY = "None"
 
     # OPTIONAL
     SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
