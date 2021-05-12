@@ -26,3 +26,9 @@ wget
 aiofiles
 OpenCC
 pyrogram
+
+#ImageEditor
+glitch_this
+NumPy
+opencv-python-headless
+Pillow
