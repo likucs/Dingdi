@@ -21,7 +21,7 @@ PM_START_TEXT = """
 Hey there! My name is *{}!*
 I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my [news channel](https://t.me/ZauteKm) to get information on all the latest updates.
+Dm noob [Owner](https://t.me/iAmLiKu1) for any questions.
 """
 
 HELP_STRINGS = """
@@ -37,10 +37,10 @@ All commands can be used with the following: / or !
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "If you have any bugs or questions on how to use me, have a look at @ZauTeSupport.")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/ZauteBot) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](t.me/iAmLiKu1) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [Contact here](t.me/ZauTeBot)."""
+There are two ways of paying him; [Contact here](t.me/iAmLiKu1)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -141,27 +141,27 @@ def start(bot: Bot, update: Update, args: List[str]):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="👥 Group",
-                                url=f"https://t.me/DingdiSupport",
+                                text="👑 𝐎𝐖𝐍𝐄𝐑",
+                                url=f"https://t.me/iAmLiKu1",
                             ),
                             InlineKeyboardButton(
                                 text="Channel 📢",
-                                url="https://t.me/ZauteKm",
+                                url="https://t.me/ourbots1",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🔧 Support",
-                                url=f"https://t.me/joinchat/TBKI3d9nCF8xMBsL",
+                                text="🌝 Instagram",
+                                url=f"https://www.instagram.com/liku__cs",
                             ),
                             InlineKeyboardButton(
-                                text="Information 💬",
-                                url="https://t.me/ZauteBot",
+                                text="assistant 🍑",
+                                url="https://t.me/likuGF",
                             ),
                         ],
                         [
                             InlineKeyboardButton(text="🔰 Dingdi Source Code 🔰",
-                                url="http://githup.com/ZauteKm/Dingdi",
+                                url="http://githup.com/likucs/Dingdi",
                             ),
                         ],
                     ]
